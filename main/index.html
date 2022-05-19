@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-gray-900 flex justify-between py-18" style="padding: 18px 12px">
+    <header class="flex justify-between py-18 relative z-10 " style="padding: 18px 12px ">
         <div class="flex justify-center items-center">
             <img src="images/logo.png" alt="" style="margin-right: 50px" />
-            <a href="" class="text-white"style="margin-right: 20px">Pricing</a>
-            <a href="" class="text-white"style="margin-right: 20px">Courses</a>
-            <a href="" class="text-white"style="margin-right: 20px">Blog</a>
-            <a href="" class="text-white"style="margin-right: 50px">Form</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Pricing</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Courses</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Form</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Blog</a>
         </div>
         <div class="flex items-center">
-            <a href="" class="text-white">Login</a>
-            <button>Sign up</button>
+            <a href="" class="text-white py-8 px-16 no-underline" style="margin-right: 12px;">Login</a>
+           
+            <button class="bg-brand-color text-white rounded-full  py-12 px-28 uppercase text-sm">Sign Up</button>
         </div>
     </header>
+
+    <section class="relative" style="top: -125px;" >
+        <video loop="loop" autoplay="autoplay" playsinline muted="muted" class="w-full h-full object-cover" style="min-height: 550px;"
+            src="https://chriscourses.com/_nuxt/videos/galaxy.b6c8fb5.mp4" type="video/mp4">
+        </video>
+
+        <!-- <img src="images/image 7.png" alt="" class="w-full"> -->
+
+    </section>
 </body>
 </html>

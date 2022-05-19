@@ -1,6 +1,10 @@
+
 body{
     margin: 0;
     /* padding: 0; */
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 .bg-gray-900{
@@ -48,4 +52,48 @@ body{
 .py-18 {
     padding-top: 18px;
     padding-bottom: 18px;
+}
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.px-16{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.px-28{
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.no-underline{
+    text-decoration: none;
+}
+.bg-brand-color{
+    background-color: #539d98;
+}
+.border-none{
+    border:none;
+}
+.rounded-full{
+    border-radius: 9999px;
+}
+.uppercase{
+    text-transform: uppercase;    
+}
+.text-sm{
+    font: size 14px;
+}
+.w-full{
+    width: 100%;
+}
+.relative{
+    position: relative;
+    
+}
+.z-10{
+    z-index: 10;
 }
