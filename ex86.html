@@ -1,0 +1,46 @@
+<!--Ex.86 Create web page with javascript to perform login 
+authentication check process using UDF. -->
+
+<!doctype html>
+<html>
+<head>
+<title>JavaScript Function</title>
+
+<script type="text/javascript">
+
+	function f1()
+	{
+		var a=document.getElementById("t1").value;	
+		var b=document.getElementById("t2").value;
+
+		if(a=="marwadi" && b=="rajkot")
+		{
+	document.getElementById("sp1").innerHTML="Login Successfull"; 
+		}
+		else
+		{
+	document.getElementById("sp1").innerHTML="Login Fail"; 
+		}
+
+	}
+
+</script>
+
+</head>
+
+<body>
+<center>
+	<hr>
+	<h1>Login Here</h1>
+	<input type="text" id="t1" placeholder="Enter ID"><br><br>
+<input type="password" id="t2" placeholder="Enter Password" ><br><br>
+	<input type="button" value="Login" onclick="f1()">
+	<br>
+	<h1><span id="sp1"></span></h1>
+<hr>
+</center>
+</body>
+</html>
+
+
+

@@ -1,0 +1,21 @@
+<!--Ex.85(A) Create a webpage to access HTML textbox value 
+into JavaScript. -->
+<!doctype html>
+<html>
+<head>
+<title>JavaScript For Loop Example</title>
+<script type="text/javascript">
+	function getvalue()
+	{
+		var a=document.getElementById("t1").value;
+		document.getElementById("p1").innerHTML=a;
+	}
+</script></head>
+<body>
+	<input type="text" id="t1">
+	<br>
+	<input type="button" value="Click" onclick="getvalue()">
+	<br>
+	<p id="p1"></p>
+	</body>
+</html>
