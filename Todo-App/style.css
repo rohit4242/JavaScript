@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(166, 192, 214);
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 600px;
+    
+}
+
+#todo-list{
+    margin: auto;
+    padding-top: 10px;
+    max-width: 600px;
+}
+
+#todo-title{
+    border: 1px solid rgb(216, 118, 118);
+    border-radius: 5px;
+    /* color: rgb(148, 140, 140); */
+}
+
+#date-picker{
+    border: 1px solid rgb(216, 118, 118);
+    border-radius: 5px;
+    color: rgb(216, 111, 13);
+    cursor: pointer;
+}
+
+button{
+    border: 1px solid rgb(216, 118, 118);
+    border-radius: 5px;
+    color: rgb(236, 12, 42);
+    cursor: pointer;
+}
